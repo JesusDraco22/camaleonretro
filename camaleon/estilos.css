@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+            font-family: Arial, sans-serif;
+            line-height: 1.9;
+            margin: 0;
+            padding: 0;
+            background-color: #896F8C;
+	
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            overflow: hidden; /* Clearfix para contener floats */
+            background-color: #000000;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+			
+        }
+        .left-column {
+            float: left;
+            width: 40%; /* Ajusta el ancho de la columna izquierda (imagen) */
+            padding: 20px;
+            box-sizing: border-box; /* Incluye el padding en el ancho total */
+        }
+        .right-column {
+            float: left;
+            width: 60%; /* Ajusta el ancho de la columna derecha (texto) */
+            padding: 20px;
+            box-sizing: border-box; /* Incluye el padding en el ancho total */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.3);
+        }
+        h2 {
+            font-size: 1.8em;
+            color: #FFFFFF;
+        }
+		h3 {
+            font-size: 1.8em;
+            color: #000000;
+        }
+        p {
+            color: #CDCDCD;
+        }
+body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+	        text-align: center
+        }
+        header {
+            background-color: #A1A39F;
+            background-image: url("WhatsApp Image 2024-07-15 at 9.11.31 PM.jpeg");
+            text-align: center;
+			
+        }
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        nav ul li a:hover {
+            background-color: #dd;
+        }
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #BB8872;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+ body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #7C4F45;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .menu-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-image: url("textura 3.jpeg")
+            
+        }
+        .menu-item {
+            margin-bottom: 15px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .menu-item h3 {
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+        .menu-item p {
+            margin-bottom: 5px;
+            color: #666;
+        }
+        .menu-item .price {
+            font-weight: bold;
+            color: #333;
+        }
+ body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .bebida-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-image: url("textura 3.jpeg")
+            
+        }
+        .bebida-item {
+            margin-bottom: 15px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .bebida-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .bebida-item h3 {
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+        .bebida-item p {
+            margin-bottom: 5px;
+            color: #666;
+        }
+        .bebida-item .price {
+            font-weight: bold;
+            color: #333;
+        }
+body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        header {
+            background-color: #F94F9F9;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: #fff4;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+ body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url("fondo 2.jpeg")
+            
+        }
+        header {
+            background-color: #0D0E3A; /* Rojo */
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-image: url("textura.jpeg")
+           
+           
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #00022b; /* Rojo */
+            color: #9C4B2B;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
